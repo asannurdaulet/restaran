@@ -1,0 +1,327 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  background-image: url(./images/bg.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header .container {
+  margin: 0 166px;
+}
+.header .header-line {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header .nav-item {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 25px;
+  transition: color 0.3 linear;
+}
+.header .nav-item:hover {
+  color: red;
+}
+.header .cart {
+  position: relative;
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+  height: 50px;
+}
+.header .cart-img {
+  position: absolute;
+  top: 20px;
+  right: 7px;
+}
+.header .nam {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3 linear;
+}
+.header .nam:hover {
+  color: red;
+}
+.header .phone-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+.header .phone-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .button {
+  background: #ff7400;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 18px;
+  font-weight: 700;
+  transition: color 0.3 linear;
+}
+.header .button:hover {
+  background: rgb(80, 41, 10);
+}
+.header .header-down {
+  position: relative;
+}
+.header .header-title {
+  color: #d67e35;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  margin-top: 222px;
+}
+.header .header-suptitle {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+.header .header-suptitle::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 61px;
+  background-color: #fff;
+  top: 127px;
+  left: 78px;
+}
+.header .header-suptitle::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 61px;
+  background-color: #fff;
+  top: 127px;
+  left: 315px;
+}
+.header .header-button {
+  background-color: #ff7400;
+  padding: 14px 28px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  transition: color 0.2 linear;
+}
+.header .header-button:hover {
+  background-color: #693307;
+}
+
+.container {
+  margin: 0 166px;
+}
+.container .cards-holder {
+  display: flex;
+  justify-content: center;
+}
+.container .card {
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1019607843);
+  margin-right: 31px;
+  width: 349px;
+  background-color: #fff;
+  margin-top: -80px;
+  padding: 10px 10px;
+}
+.container .card .card-image {
+  display: flex;
+  justify-content: center;
+  padding-top: 31px;
+}
+.container .card .card-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-family: Arial, serif;
+  font-weight: 400;
+}
+.container .card .card-title span {
+  color: #d67e35;
+}
+.container .card .card-desc {
+  text-align: center;
+  font-size: 26px;
+  font-family: times, serif;
+  font-weight: 400;
+  color: #656363;
+}
+
+.history {
+  margin-top: 166px;
+  padding-bottom: 200px;
+}
+.history .history-title {
+  font-size: 54px;
+  font-family: times, serif;
+  font-weight: 400;
+  width: 444px;
+  text-align: center;
+  margin-top: 21px;
+}
+.history .history-title span {
+  color: #d67e35;
+}
+.history .history-desc {
+  color: #656363;
+  font-size: 16px;
+  width: 444px;
+  text-align: center;
+}
+.history .history-number {
+  display: flex;
+  width: 444px;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.history .history-item {
+  margin-right: 60px;
+  text-align: center;
+  font-size: 40px;
+  color: #bc9060;
+}
+.history .history-item span {
+  display: block;
+  color: #656363;
+  font-size: 14px;
+}
+.history .history-images {
+  position: relative;
+}
+.history .history-images .imgages-1 {
+  position: absolute;
+  z-index: 3;
+  top: -40px;
+  left: 211px;
+}
+.history .history-images .imgages-2 {
+  position: absolute;
+  z-index: 1;
+  top: -92px;
+  left: 383px;
+}
+.history .history-images .imgages-3 {
+  position: absolute;
+  z-index: 3;
+  top: 180px;
+  left: 500px;
+}
+.history .history-holder {
+  display: flex;
+}
+
+.black-block {
+  background-image: url(./images/bacgrond1.png);
+  padding: 80px 0;
+}
+.black-block .left-title {
+  color: #bc9060;
+  font-size: 52px;
+  font-family: times, serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.black-block .left-text {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+.black-block .rigth-btn {
+  background: #ff7400;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 18px;
+  font-weight: 700;
+}
+.black-block .black-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dishes-title {
+  font-size: 54px;
+  font-family: times, serif;
+  font-weight: 400;
+  text-align: center;
+  color: #656363;
+  padding-top: 132px;
+  margin-bottom: 139px;
+}
+.dishes-title span {
+  color: #d67e35;
+}
+
+.burgers {
+  display: flex;
+}
+.burgers .burger-item {
+  display: flex;
+  margin-bottom: 29px;
+  align-items: center;
+}
+.burgers .burgers-images {
+  margin-right: 20px;
+  justify-content: center;
+}
+.burgers .burger-text {
+  font-size: 26px;
+  font-family: times, serif;
+  margin-left: 20px;
+}
+
+.menu {
+  background-image: url(./images/fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+.menu .menu-title {
+  font-size: 54px;
+  font-family: times, serif;
+  padding-top: 98px;
+  color: #fff;
+  text-align: center;
+  padding-top: 138px;
+}
+.menu .menu-item {
+  background-color: #fff;
+  text-align: center;
+  width: 33%;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+.menu .menu-text {
+  font-size: 26px;
+  font-family: times, serif;
+  padding-top: 16px;
+  padding-bottom: 17px;
+}
+.menu .menu-subtext {
+  font-size: 16px;
+}
+.menu .menu-btn {
+  background: #d67e35;
+  text-decoration: none;
+  padding: 14px 67px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.menu .menu-button {
+  margin-top: 20px;
+}/*# sourceMappingURL=style.css.map */
